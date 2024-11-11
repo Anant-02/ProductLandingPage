@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Project 1</title>
-</head>
-<body>
-     <header class="grid-main">
-        <nav class="grid-content topnav">
-            <a href="">
-                <img src="" alt="LogoImage">
-            </a>
-            <button class="button blue">PRE-ORDER-NOW</button>
-        </nav>
-     </header>
-     <main>
-
-     </main>
-     <footer>
-
-     </footer>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="grid-main topnav">
+        <a href="">
+          <img src="" alt="LogoImage" />
+        </a>
+        <button class="button blue">PRE-ORDER-NOW</button>
+      </nav>
+    </header>
+    <main>
+      <section class="grid-main hero">
+        <div class="hero-text">
+          <h1 class="headline">TYPEMASTER KEYBOARD</h1>
+          <p class="description">
+            Improve your productivity and gaming without breaking the bank.
+            Upgrade to a high quality mechanical typing experience.
+          </p>
+          <button class="button orange">PRE-ORDER-NOW</button>
+          <p class="info"><strong>RELEASE ON 5/27</strong></p>
+        </div>
+        <picture class="hero-image">
+          <source
+            media="(width >= 75em)"
+            srcset="assets/Desktop/image-keyboard.jpg"
+          />
+          <source
+            media="(width >= 43.75)"
+            srcset="assets/Tablet/image-keyboard-tablet.jpg"
+          />
+          <img
+            src="assets/Mobile/image-keyboard-mobile.jpg"
+            alt="keyboad"
+            width="1080"
+            height="960"
+          />
+        </picture>
+        <div class="gray-block"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
